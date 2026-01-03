@@ -207,6 +207,7 @@ a:hover{
     background-image: url('images/foto1.jpg'); /* aggiungi questa riga */
     background-size: cover;
     background-position: center;
+    background-color: lightblue;
     background-position-x: -100px;
 }
 @media (max-width:1000px){
