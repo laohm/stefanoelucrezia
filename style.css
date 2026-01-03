@@ -1,9 +1,7 @@
 /* <===================TYPOGRAPHY & FONTS===================> */
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Quicksand&display=swap');
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
-</style>
+/*@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Quicksand&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Quicksand&family=Rouge+Script&display=swap');
 /* <===================CSS VARIABLES===================> */
 
 :root{
