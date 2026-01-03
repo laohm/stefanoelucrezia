@@ -196,7 +196,7 @@ a:hover{
     width: 100%;
     margin: 20px 0 0 0;
     height: 50vh;
-    background-image: url('images/foto12.jpg'); /* o altra versione */
+    background-image: url('foto12.jpg'); /* o altra versione */
     background-size: cover;
     background-position: center;
 }
