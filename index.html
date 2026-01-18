@@ -127,9 +127,10 @@
                 <div class="registry-container reveal">
                     <h2>Grazie</h2>
                     <h3 class="text">
-                        La vostra presenza è per noi il regalo più grande. Iniziamo questo nuovo cammino insieme e, per chi lo desidera, un vostro pensiero (almeno 160 euro) ci aiuterà a realizzare i nostri progetti futuri.<br>
+                        La vostra presenza è per noi il regalo più grande. Per chi lo desidera, un vostro pensiero ci aiuterà a realizzare i nostri progetti futuri.<br>
                         Grazie di cuore.<br>
-                        Stefano e Lucrezia
+                        <br>
+                        Stefano Diomedi e Lucrezia Di Donato
                     </h3>
                     <!--<button class="huge-btn text">IT000000000000000000</button>-->
 
@@ -139,7 +140,9 @@
                     const btn = document.getElementById('iban-btn');
                     
                     btn.addEventListener('click', () => {
-                        const iban = btn.textContent;  // prendi il testo del pulsante
+                        //const iban = btn.textContent;
+                        const iban = IT24G0200802643000421404122
+                        // prendi il testo del pulsante
                         navigator.clipboard.writeText(iban).then(() => {
                             alert('IBAN copiato negli appunti!'); // messaggio opzionale
                         }).catch(err => {
