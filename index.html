@@ -131,7 +131,22 @@
                         Grazie di cuore.<br>
                         Stefano e Lucrezia
                     </h3>
-                    <button class="huge-btn text">IT000000000000000000</button>
+                    <!--<button class="huge-btn text">IT000000000000000000</button>-->
+
+                    <button class="huge-btn text" id="iban-btn">IT000000000000000000</button>
+
+                    <script>
+                    const btn = document.getElementById('iban-btn');
+                    
+                    btn.addEventListener('click', () => {
+                        const iban = btn.textContent;  // prendi il testo del pulsante
+                        navigator.clipboard.writeText(iban).then(() => {
+                            alert('IBAN copiato negli appunti!'); // messaggio opzionale
+                        }).catch(err => {
+                            console.error('Errore copia IBAN: ', err);
+                        });
+                    });
+                    </script>
                 </div>
                 <div class="registry-img registry-img-lg" id="parallax2"></div>
             </div>
