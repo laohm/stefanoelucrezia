@@ -94,14 +94,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 200px;
     width: 100%;
     margin-bottom: 20vh;
     padding: 0 30px;
 }
 
 label.logo img {
-    max-height: 90px;
+    max-height: 150px;
     width: auto;
 }
 
