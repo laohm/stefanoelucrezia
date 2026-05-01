@@ -548,12 +548,12 @@ a:hover{
     margin-top: 10vh;
 }
 
-.parting-message h1{
+.parting-message h2{
     text-align: left;
     margin: 0 0 30px 0;
 }
 
-.parting-message button{
+.parting-message .huge-btn{
     margin: 30px 0 0 0;
 }
 /* <===================FOOTER===================> */
