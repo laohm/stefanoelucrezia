@@ -375,15 +375,15 @@ a:hover{
     background-position: center;
 }
 .gallery-img:nth-child(1){
-    background-image: url('images/poggio2.jpg'); 
+    background-image: url('images/foto2.jpg'); 
     background-position-x: right;
 }
 .gallery-img:nth-child(2){
-    background-image: url('images/poggio1.jpg');
+    background-image: url('images/foto1.jpg');
 }
 .gallery-img:nth-child(3){
     background-position-y: top;
-    background-image: url('images/ristorante.png');
+    background-image: url('images/foto3.png');
 }
 @media (max-width:1000px){
     .gallery{
