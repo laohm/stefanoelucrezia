@@ -546,3 +546,51 @@ footer h2{
     font-size: 2Srem;
     font-weight: normal;
 }
+
+
+.timeline-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 8vh 0;
+}
+
+.timeline-side {
+    width: 30%;
+    height: 70vh;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.timeline-photo {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.timings {
+    width: 40%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width:1000px) {
+    .timeline-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .timeline-side,
+    .timings {
+        width: 100%;
+    }
+
+    .timeline-side {
+        height: 38vh;
+    }
+}
