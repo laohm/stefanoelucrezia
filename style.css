@@ -368,7 +368,7 @@ a:hover{
 }
 .gallery-img:nth-child(3){
     background-position-y: top;
-    background-image: url('images/foto3.png');
+    background-image: url('images/foto3.jpg');
 }
 @media (max-width:1000px){
     .gallery{
