@@ -266,27 +266,42 @@ a:hover{
     backdrop-filter: blur(4px);
     padding: 8vh var(--horizontal-margin-spacing);
 }
+
 .timeline-container {
     display: flex;
     flex-direction: row;
-    margin: 8vh 0;
     align-items: stretch;
+    justify-content: space-between;
     gap: 30px;
+    margin: 8vh 0;
 }
 
+.timeline-side {
+    width: 30%;
+    height: 70vh;
+    overflow: hidden;
+    flex-shrink: 0;
+}
 
+.timeline-photo {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
 
 .timings {
+    width: 40%;
     margin: 0;
-    width: 32vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .timeline-container .text {
-    padding: 1rem 0 1rem 0;
+    padding: 1rem 0;
 }
+
 @media (max-width:1000px){
     .timeline{
         background-color: var(--grey-color);
@@ -297,12 +312,19 @@ a:hover{
         backdrop-filter: blur(0);
         height: fit-content;
     }
+
     .timeline-container{
         flex-direction: column;
+        gap: 20px;
     }
-    .timeline-img{
-        height: 50vh;
+
+    .timeline-side,
+    .timings{
         width: 100%;
+    }
+
+    .timeline-side{
+        height: 38vh;
     }
 }
 
