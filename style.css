@@ -274,22 +274,7 @@ a:hover{
     gap: 30px;
 }
 
-.timeline-img {
-    height: 70vh;
-    width: 28vw;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    flex-shrink: 0;
-}
 
-.ceremony-img {
-    background-image: url(images/chiesaBig.jpeg);
-}
-
-.reception-img {
-    background-image: url(images/poggio1.jpg);
-}
 
 .timings {
     margin: 0;
