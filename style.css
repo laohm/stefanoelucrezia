@@ -542,10 +542,8 @@ a:hover{
 }
 */
 .parting-message{
-    max-width: 600px;
-    width: 90%;
-    margin-left: var(--horizontal-margin-spacing);
-    margin-top: 10vh;
+    padding: 10vh var(--horizontal-margin-spacing) 0 var(--horizontal-margin-spacing);
+    width: 100%;
 }
 
 .parting-message h2{
@@ -555,6 +553,12 @@ a:hover{
 
 .parting-message .huge-btn{
     margin: 30px 0 0 0;
+}
+
+@media (max-width:1000px){
+    .parting-message{
+        padding: 6vh var(--horizontal-margin-spacing) 0 var(--horizontal-margin-spacing);
+    }
 }
 /* <===================FOOTER===================> */
 
