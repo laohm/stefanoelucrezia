@@ -266,23 +266,41 @@ a:hover{
     backdrop-filter: blur(4px);
     padding: 8vh var(--horizontal-margin-spacing);
 }
-.timeline-container{
+.timeline-container {
     display: flex;
     flex-direction: row;
     margin: 8vh 0;
+    align-items: stretch;
+    gap: 30px;
 }
-.timeline-img{
-    background-image: url('images/chiesaBig.jpeg'); 
+
+.timeline-img {
     height: 70vh;
-    width: 30vw;
+    width: 28vw;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
 }
-.timings{
-    margin: 30px;
+
+.ceremony-img {
+    background-image: url(images/chiesaBig.jpeg);
 }
-.timeline-container .text{
-    padding: 1rem 0 1rem 4rem;
+
+.reception-img {
+    background-image: url(images/poggio1.jpg);
+}
+
+.timings {
+    margin: 0;
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.timeline-container .text {
+    padding: 1rem 0 1rem 0;
 }
 @media (max-width:1000px){
     .timeline{
