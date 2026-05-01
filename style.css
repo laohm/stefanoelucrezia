@@ -511,6 +511,7 @@ a:hover{
 
 /* <===================PARTING MESSAGE===================> */
 .parting-message h1{
+    padding: 20vh var(--horizontal-margin-spacing) 0 var(--horizontal-margin-spacing); 
     margin-top: 10vh;
     text-align: center;
 }
